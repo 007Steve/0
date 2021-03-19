@@ -1,0 +1,12 @@
+.home {
+}
+.home__container {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  overflow: scroll;
+}
+
+.home__container::-webkit-scrollbar {
+  display: none;
+}

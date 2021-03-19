@@ -1,0 +1,127 @@
+.projectPage {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.projectPage_title {
+  font-size: 7vw;
+  line-height: 80px;
+  font-weight: 500;
+  text-align: center;
+  text-indent: 0;
+  text-transform: uppercase;
+  /* margin-right: 7rem; */
+  margin-bottom: 4rem;
+}
+.projectPage__video {
+  width: 100%;
+  max-height: 600px;
+}
+.projectPage__container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 4rem;
+  padding: 7rem;
+}
+.projectPage__infoContainer {
+  margin-right: 3rem;
+  padding: 1rem;
+}
+.projectPage__p {
+  color: #232322;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 0.3rem;
+}
+.projectPage__span {
+  color: #646567;
+}
+.projectPage__description {
+  width: 40%;
+  color: #646567;
+  padding: 1rem;
+}
+.projectPage__projectImage {
+  width: 80%;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  /* border-radius: 20px; */
+}
+.projectPage__nextProjectContainer {
+  background-color: #edf2f8;
+  width: 100vw;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.projectPage__nextProjectText {
+  margin-top: 32px;
+  opacity: 1;
+  font-family: "Gt flexa standard", sans-serif;
+  color: rgba(26, 27, 31, 0.7);
+  font-size: 16px;
+  font-weight: 100;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.projectPage__nextProjectTitle {
+  font-size: 7vw;
+  line-height: 80px;
+  font-weight: 500;
+  text-align: center;
+  text-indent: 0;
+  text-transform: uppercase;
+  margin: 1rem;
+}
+a {
+  text-decoration: none;
+  color: #232322;
+}
+
+@media only screen and (max-width: 650px) {
+  .projectPage__container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .projectPage__infoContainer {
+    display: flex;
+    margin: 0 auto;
+  }
+  .projectPage__description {
+    width: 80%;
+    color: #646567;
+  }
+  .projectPage__p {
+    color: #232322;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .projectPage__infoContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 90%;
+  }
+  .projectPage__container {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+  .projectPage__description {
+    width: 90%;
+  }
+}

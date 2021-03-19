@@ -1,0 +1,15 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+.nav__texts {
+  margin: 2rem 5rem;
+  letter-spacing: 1px;
+  
+}
+@media only screen and (max-width: 650px) {
+  .nav__texts{
+    margin: 1rem 1rem;
+  }
+}
